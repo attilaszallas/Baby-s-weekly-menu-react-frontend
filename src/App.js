@@ -21,7 +21,7 @@ function App() {
   function deleteItem(id){
     console.log(id);
 
-    const newArray = items.filter(item => item.id != id);
+    const newArray = items.filter(item => item.id !== id);
     setItems(newArray);
   }
 
